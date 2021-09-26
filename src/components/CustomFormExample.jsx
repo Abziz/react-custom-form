@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useMemo } from "react";
-import { useDispatch } from "react-redux";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { updateField, disableForm, enableForm, initForm } from "../app/features/forms/formsSlice";
 import CustomForm from "./CustomForm/CustomForm";
 
