@@ -1,0 +1,61 @@
+label  {
+	@apply block;
+	@apply text-sm font-medium;
+}
+
+.form{
+	@apply flex flex-col gap-5 p-3;
+	@apply sm:overflow-hidden sm:rounded-md ;
+	@apply shadow 
+}
+
+.input input {
+	@apply block w-full mt-1 rounded-md;
+	@apply sm:text-sm;
+	@apply shadow-sm;
+	@apply border-gray-300;
+	@apply focus:ring-indigo-500 focus:border-indigo-500;
+	@apply disabled:opacity-50;
+}
+
+.label { 
+	@apply block;
+	@apply text-sm font-medium;
+}
+
+.checkbox {
+	@apply flex items-start;
+}
+
+.checkbox > div {
+	@apply flex items-center h-5;
+}
+
+.checkbox input[type='checkbox'] {
+	@apply h-4 w-4 rounded mr-3;
+	@apply text-indigo-600;
+	@apply border-gray-300;
+	@apply disabled:opacity-50;
+	@apply focus:outline-none;
+}
+
+.select {
+	@apply mt-1 block w-full py-2 px-3 rounded-md;
+	@apply border border-gray-300 bg-white shadow-sm;
+	@apply sm:text-sm;
+	@apply focus:outline-none focus:ring-indigo-500 focus:border-indigo-500;
+	@apply disabled:opacity-50;
+}
+.submit {
+	@apply flex justify-center
+}
+
+.submit button{
+	@apply inline-flex justify-center py-2 px-4 rounded-md;
+	@apply border border-transparent shadow-sm bg-indigo-600;
+	@apply text-sm font-medium text-white;
+	@apply hover:bg-indigo-700;
+	@apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+	@apply disabled:opacity-50 
+}
+
