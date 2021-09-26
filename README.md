@@ -21,4 +21,4 @@
 	/>
 ```
 
-1. Check the link for (Advanced usage)[src/components/CustomFormExample.jsx]
+1. Check the link for [Advanced usage](src/components/CustomFormExample.jsx)
